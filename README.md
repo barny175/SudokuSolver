@@ -3,5 +3,5 @@ This project is implementation of solver for classical sudoku. The solving uses 
 
 ![Image](sudoku-tree.png)
 
-The solution consists from two basic classes. **Solver** and **SolverState*. Class **SolverState** contains initial assignment and map of found numbers for cells. The reference of initial assignment is copied to new states because it is not mutated and it would be useless to copy it to each instance of **SolverState**.
+The solution consists from two basic classes. **Solver** and **SolverState**. Class **SolverState** contains initial assignment and map of found numbers for cells. The reference of initial assignment is copied to new states because it is not mutated and it would be useless to copy it to each instance of **SolverState**.
 Map of found numbers are copied because it is updated during processing of the state.

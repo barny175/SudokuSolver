@@ -1,5 +1,7 @@
 # SudokuSolver
-This project is implementation of solver for classical sudoku. The solving uses depth-first search in the tree of possible numbers in all missing cells in the given sudoku. It starts with given assignments and finds possible numbers for all missing cells. Then it recursively tries to assign numbers to cells. Recursion could be problem sometimes but in the case of sudoku, the tree would not be so deep, so there is no danger of StackOverflowError.
+This project is implementation of solver for classical sudoku. 
+
+The solving uses depth-first search in the tree of possible numbers in all missing cells in the given sudoku. It starts with given assignments and finds possible numbers for all missing cells. Then it recursively tries to assign numbers to cells. Recursion could be problem sometimes but in the case of sudoku, the tree would not be so deep, so there is no danger of StackOverflowError.
 
 ![Image](sudoku-tree.png)
 
